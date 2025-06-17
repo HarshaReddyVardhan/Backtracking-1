@@ -1,5 +1,5 @@
 /*
-Approach (Backtracking):
+Approach (Backtracking based approach using for loop):
 Start DFS with a pivot index to avoid revisiting previous elements
 Begin from index 0 and explore all candidates recursively to find combinations summing to the target.
 
