@@ -1,4 +1,4 @@
-// Approach in 3 Sentences
+// Approach (Using classic recursion/backtracking with 0/1 recursion)
 // This solution uses backtracking where at each index, we decide to either skip the candidate (idx + 1) or choose it (target - candidates[idx] and stay at idx).
 // If the target becomes 0, the current path is a valid combination and added to the result.
 // This ensures that combinations are explored recursively, allowing reuse of elements and avoidance of duplicates.
